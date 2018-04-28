@@ -1,0 +1,76 @@
+.article-box {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.article-box .artile-title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999999;
+}
+.article-box .artile-title h3 {
+  font-size: 32px;
+  padding-right: 60px;
+  font-weight: 300;
+  line-height: 60px;
+}
+.article-box .artile-title p:nth-of-type(1) {
+  margin: 20px 30px;
+  margin-left: 0;
+}
+.article-box .artile-title p:nth-of-type(1) span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 5px;
+  background-color: #555555;
+  border-radius: 20px;
+  color: #ffffff;
+  margin: 5px 7px;
+}
+.article-box .artile-title p:nth-of-type(2) {
+  line-height: 35px;
+  color: #999999;
+}
+.article-box .artile-title p:nth-of-type(3) {
+  color: #999999;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+  margin: 20px 0;
+}
+.article-box .artile-title p:nth-of-type(4) {
+  font-size: 16px;
+  line-height: 30px;
+}
+.article-box .artile-title p:nth-of-type(4) img {
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+}
+.article-box .artile-title p:nth-of-type(5) {
+  font-size: 16px;
+  line-height: 110px;
+}
+.article-box .share {
+  padding: 20px 0;
+}
+.article-box .share .tips span {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #00AA98;
+  font-size: 12px;
+  border: 1px solid #DCDCDC ;
+}
+.article-box .share .tips-link {
+  text-align: right;
+}
+.article-box .share .tips-link span {
+  background-color: #fff;
+}
+.article-box .share .tips-link span:nth-of-type(1) {
+  border: 1px solid #1ed154;
+  color: #1ed154;
+}
+.article-box .share .tips-link span:nth-of-type(2) {
+  border: 1px solid #df2a12;
+  color: #df2a12;
+}

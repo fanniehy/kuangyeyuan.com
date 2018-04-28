@@ -1,0 +1,32 @@
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover{
+    color: #00aa98;
+    background-color:rgba(255, 255, 255, 0);
+}
+.navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus,
+ .navbar-default .navbar-nav>.open>a:hover{
+    color: #fff;
+    background-color: rgba(255,255,255,0);
+ }
+ .nav .open>a,
+  .nav .open>a:focus,
+   .nav .open>a:hover{
+     border: none;
+ }
+ .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background: #515050;
+     
+ }
+ .dropdown-menu{
+     border-top: none;
+    background: #515050;
+ }
+ 
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0;
+        
+    }
+}
